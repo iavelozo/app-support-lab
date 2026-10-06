@@ -1,0 +1,22 @@
+# Logs
+logs/*.log
+*.log
+
+# Reportes generados
+reports/*.txt
+reports/*.json
+!reports/.gitkeep
+
+# Entornos con secretos
+environments/*/.env
+.env
+*.env
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDEs
+.vscode/
+.idea/
